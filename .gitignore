@@ -1,0 +1,11 @@
+dist/
+.env
+__pycache__/
+poetry_cache/
+*.py[cdo]
+*.whl
+*.zip
+*.mcpack
+*.mcaddon
+*.mcworld
+test_data/
