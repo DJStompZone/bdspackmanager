@@ -37,7 +37,7 @@
 ### Command-line Arguments
 
 ```bash
-python -m bds_pack_manager [OPTIONS] [PACKS...]
+python -m bdspackmanager [OPTIONS] [PACKS...]
 ```
 
 #### Options
@@ -55,25 +55,25 @@ python -m bds_pack_manager [OPTIONS] [PACKS...]
 1. **Adding a Pack**:
 
    ```bash
-   python -m bds_pack_manager /path/to/your_pack.mcpack 
+   python -m bdspackmanager /path/to/your_pack.mcpack 
    ```
 
 2. **Validating Pack Consistency**:
 
    ```bash
-   python -m bds_pack_manager --validate 
+   python -m bdspackmanager --validate 
    ```
 
 3. **Updating All Behavior Packs**:
 
    ```bash
-   python -m bds_pack_manager --update --version "1.16.0-beta" 
+   python -m bdspackmanager --update --version "1.16.0-beta" 
    ```
 
 4. **Updating Packs in a Specific Folder**:
 
    ```bash
-   python -m bds_pack_manager --update-only /path/to/pack_folder --version "1.16.0-beta"
+   python -m bdspackmanager --update-only /path/to/pack_folder --version "1.16.0-beta"
    ```
 
 ---

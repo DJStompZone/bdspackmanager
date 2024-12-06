@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bdspackmanager"
-version = "1.1.1"
+version = "1.1.2"
 description = "Command-line tool designed for managing resource and behavior packs on a Minecraft Bedrock Dedicated Server (BDS)"
 authors = ["DJ Stomp <85457381+DJStompZone@users.noreply.github.com>"]
 maintainers = ["DJ Stomp <85457381+DJStompZone@users.noreply.github.com>"]
